@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import { motion } from 'framer-motion'
 import StatCard from '../components/StatCard'
 import { BarChart2, ShoppingBag, Users, Zap } from 'lucide-react'
+import SalesOverviewChart from '../components/overview/SalesOverviewChart'
 const OverviewPage = () => {
     return (
         <div className='flex-1 overflow-auto relative z-10'>
