@@ -4,6 +4,8 @@ import { motion } from 'framer-motion'
 import StatCard from '../components/StatCard'
 import { BarChart2, ShoppingBag, Users, Zap } from 'lucide-react'
 import SalesOverviewChart from '../components/overview/SalesOverviewChart'
+import CategoryDistributionChart from '../components/overview/CategoryDistributionChart'
+import SalesChannelChart from '../components/overview/SalesChannelChart'
 const OverviewPage = () => {
     return (
         <div className='flex-1 overflow-auto relative z-10'>
@@ -25,6 +27,8 @@ const OverviewPage = () => {
                 {/* CHARTS */}
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
                     <SalesOverviewChart />
+                    <CategoryDistributionChart />
+                    <SalesChannelChart />
                 </div>
 
             </main>
