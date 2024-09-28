@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../components/Header'
 import { motion } from 'framer-motion'
 import StatCard from '../components/StatCard'
-import { Zap } from 'lucide-react'
+import { BarChart2, ShoppingBag, Users, Zap } from 'lucide-react'
 const OverviewPage = () => {
     return (
         <div className='flex-1 overflow-auto relative z-10'>
@@ -21,6 +21,10 @@ const OverviewPage = () => {
                     <StatCard name='Total Products' icon={ShoppingBag} value='567' color='#EC4899' />
                     <StatCard name='Conversion Rate' icon={BarChart2} value='12.5%' color='#10B981' />
                 </motion.div>
+                {/* CHARTS */}
+                <div className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
+                    <SalesOverviewChart />
+                </div>
 
             </main>
         </div >
