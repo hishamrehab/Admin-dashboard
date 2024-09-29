@@ -1,3 +1,4 @@
+
 import { motion } from "framer-motion";
 import { TrendingUp, Users, ShoppingBag, DollarSign } from "lucide-react";
 
