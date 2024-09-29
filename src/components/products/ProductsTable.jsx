@@ -27,14 +27,6 @@ const ProductsTable = () => {
 
 
 
-
-
-
-
-
-
-
-
     return (
         <motion.div className="bg-gray-800 bg-opacity-50 backdrop-blur-md shadow-lg rounded-xl p-5 border border-gray-700 mb-8"
             initial={{ opacity: 0, y: 20 }}
