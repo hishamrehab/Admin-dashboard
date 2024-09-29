@@ -23,7 +23,6 @@ const CategoryDistributionChart = () => {
                             {categoryData.map((entry, index) => (
                                 <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                             ))}
-
                         </Pie>
                         <Tooltip contentStyle={{
                             backgroundColor: "rgba(31 , 41 , 55 , 0.8)",

@@ -37,7 +37,14 @@ const SalesOverviewChart = () => {
                         }}
                             timeStyle={{ color: "#E5E7EB" }}
                         />
-                        <Line type="monotone" dataKey="sales" stroke="#6366F1" strokeWidth={3} dot={{ fill: "#6366F1", strokeWidth: 2, r: 6 }} activeDot={{ r: 8, strokeWidth: 2 }} />
+                        <Line
+                            type="monotone"
+                            dataKey="sales"
+                            stroke="#6366F1"
+                            strokeWidth={3}
+                            dot={{ fill: "#6366F1", strokeWidth: 2, r: 6 }}
+                            activeDot={{ r: 8, strokeWidth: 2 }}
+                        />
 
                     </LineChart>
                 </ResponsiveContainer>

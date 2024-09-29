@@ -6,6 +6,7 @@ import { BarChart2, ShoppingBag, Users, Zap } from 'lucide-react'
 import SalesOverviewChart from '../components/overview/SalesOverviewChart'
 import CategoryDistributionChart from '../components/overview/CategoryDistributionChart'
 import SalesChannelChart from '../components/overview/SalesChannelChart'
+
 const OverviewPage = () => {
     return (
         <div className='flex-1 overflow-auto relative z-10'>
