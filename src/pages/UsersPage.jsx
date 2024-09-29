@@ -4,6 +4,9 @@ import Header from '../components/Header'
 import StatCard from '../components/StatCard'
 import { UserCheck, UserPlus, UsersIcon, UserX } from "lucide-react";
 import UsersTable from '../components/users/UsersTable';
+import UserGrowthChart from '../components/users/UserGrowthChart';
+import UserActivityHeatmap from '../components/users/UserActivityHeatmap';
+import UserDemographicsChart from '../components/users/UserDemographicsChart';
 
 const userStats = {
     totalUsers: 152845,
@@ -41,6 +44,14 @@ const UsersPage = () => {
                     <StatCard name='Churn Rate' icon={UserX} value={userStats.churnRate} color='#EF4444' />
                 </motion.div>
                 <UsersTable />
+                {/* USER CHARTS */}
+                <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 mt-8'>
+                    <UserGrowthChart />
+                    <UserActivityHeatmap />
+                    <UserDemographicsChart />
+
+
+                </div>
             </main>
         </div>
     )
