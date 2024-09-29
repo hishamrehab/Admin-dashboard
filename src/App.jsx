@@ -4,6 +4,7 @@ import OverviewPage from "./pages/OverviewPage"
 import Sidebar from "./components/Sidebar"
 import ProductsPage from "./pages/ProductsPage"
 import UsersPage from "./pages/UsersPage"
+import SalesPage from "./pages/SalesPage"
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
         <Route path="/" element={<OverviewPage />} />
         <Route path="/products" element={<ProductsPage />} />
         <Route path="/users" element={<UsersPage />} />
-        {/* <Route path="/products" element={<ProductsPage />} /> */}
+        <Route path="/sales" element={<SalesPage />} />
         {/* <Route path="/products" element={<ProductsPage />} /> */}
         {/* <Route path="/products" element={<ProductsPage />} /> */}
         {/* <Route path="/products" element={<ProductsPage />} /> */}
