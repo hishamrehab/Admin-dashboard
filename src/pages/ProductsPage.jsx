@@ -5,11 +5,12 @@ import { motion } from 'framer-motion'
 import { AlertTriangle, DollarSign, Package, TrendingUp } from "lucide-react";
 import SalesTrendChart from "../components/products/SalesTrendChart";
 import ProductsTable from "../components/products/ProductsTable"
+
 const ProductsPage = () => {
     return (
 
         <div className='flex-1 overflow-auto relative z-10'>
-            <Header title="Overview" />
+            <Header title="Products" />
             <main className='max-w-7xl mx-auto py-6 px-4 lg:px-8 xl:px-20'>
                 {/* Status */}
                 <motion.div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4 mb-8"
