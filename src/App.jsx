@@ -3,6 +3,7 @@ import OverviewPage from "./pages/OverviewPage"
 
 import Sidebar from "./components/Sidebar"
 import ProductsPage from "./pages/ProductsPage"
+import UsersPage from "./pages/UsersPage"
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
       <Routes>
         <Route path="/" element={<OverviewPage />} />
         <Route path="/products" element={<ProductsPage />} />
-        {/* <Route path="/products" element={<ProductsPage />} /> */}
+        <Route path="/users" element={<UsersPage />} />
         {/* <Route path="/products" element={<ProductsPage />} /> */}
         {/* <Route path="/products" element={<ProductsPage />} /> */}
         {/* <Route path="/products" element={<ProductsPage />} /> */}
