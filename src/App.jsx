@@ -1,6 +1,5 @@
 import { Route, Routes } from "react-router-dom"
 import OverviewPage from "./pages/OverviewPage"
-
 import Sidebar from "./components/Sidebar"
 import ProductsPage from "./pages/ProductsPage"
 import UsersPage from "./pages/UsersPage"
